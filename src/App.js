@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Tview from "./tview/tview.react";
 
 class App extends Component {
   render() {
@@ -8,7 +9,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Welcome to React</h2>
         </div>
-        Compontnetas
+        <Tview/>
       </div>
     );
   }
