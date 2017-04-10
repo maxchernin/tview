@@ -1,0 +1,10 @@
+import React, {Component} from 'react';
+// import './Episodes.css';
+
+class apiService {
+  getAllShows = function () {
+    console.log('get');
+  };
+}
+
+export default apiService;
