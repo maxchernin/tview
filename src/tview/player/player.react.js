@@ -13,7 +13,7 @@ class Videoplayer extends Component {
 		const videoFrame = this.props.url ? <Player src={this.props.url}
 		                                            autoPlay="true"><LoadingSpinner /></Player> : 'Click on an episode to watch';
 		return (
-            <div className="Player align col-md-4 col-sm-12 col-xs-12">
+            <div className="Player one-third full-width">
 	            <div className="panel panel-default">
 		            <div className="panel-body">
 			            {videoFrame}

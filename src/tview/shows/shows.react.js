@@ -12,7 +12,7 @@ class Shows extends Component {
     });
 
     return (
-      <div className="Shows align col-md-4 col-sm-6 col-xs-6">
+      <div className="Shows one-third">
         <div className="panel panel-default">
           <div className="panel-body">
 	          {shows}

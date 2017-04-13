@@ -9,11 +9,11 @@ class Episodes extends Component {
 
 
   render() {
-    const episodes = this.props.episodesList.map((obj) => {
+    const episodes = this.props.episodesList !== null ? this.props.episodesList.map((obj) => {
 	    return (<Episode key={obj.id} id={obj.id} title={obj.title} onClickEpisode={this.props.onClickEpisode}/> )
-    });
+    }) : 'Click on a show to watch an episode';
     return (
-      <div className="Episodes align col-md-4 col-sm-6 col-xs-6">
+      <div className="Episodes one-third">
         <div className="panel panel-default">
           <div className="panel-body">
 	          {episodes}
