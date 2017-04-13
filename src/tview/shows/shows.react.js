@@ -8,12 +8,17 @@ class Shows extends Component {
 
     const shows = this.props.showsList.map((show) => {
 
-      return (<Show key={show.id} name={show.name} image={show.image.medium} />)
+      return (<Show key={show.id} id={show.id} name={show.title} image={show.image} onShowClick={this.props.onShowClick} />)
     });
 
     return (
-      <div className="Shows">
-        {shows}
+      <div className="Shows align col-md-4 col-sm-6 col-xs-6">
+        <div className="panel panel-default">
+          <div className="panel-body">
+	          {shows}
+          </div>
+        </div>
+
       </div>
   )
     ;

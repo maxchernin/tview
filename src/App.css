@@ -1,5 +1,64 @@
+.align {
+  /*display: inline-block;*/
+  height: 700px;
+}
+
+/*@media (min-width: 680px) {*/
+  /*.align-horizontal {*/
+    /*float: left;*/
+  /*}*/
+  /*.Player{*/
+    /*width: 100%;*/
+  /*}*/
+/*}*/
+
+.Shows {
+ /*max-width: 350px;*/
+  /*width: 350px;*/
+  /*border: 1px solid black;*/
+}
+
+.Episodes {
+  max-width: 550px;
+  /*width: 500px;*/
+  /*border: 1px solid black;*/
+}
+
+.Episode {
+  /*font-size: 22px;*/
+  /*border-bottom: 1px solid gray;*/
+}
+
+.Episode span {
+  font-size: 22px;
+}
+
+.Player {
+  /*max-width: 550px;*/
+  /*width: 500px;*/
+  /*border: 1px solid black;*/
+}
+
 .Show {
-  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  /*max-width: 200px;*/
+  /*min-width: 350px;*/
+  /*border-bottom: 1px solid black;*/
+}
+.Show span {
+  /*display:block;*/
+  margin-left: 5px;
+  /*font-size: 22px;*/
+}
+
+.Tview {
+  /*margin: 5px 0;*/
+  /*height: 1200px;*/
+}
+
+.Tview .panel {
+  height: 600px;
 }
 
 .App-logo {
@@ -12,6 +71,7 @@
   height: 150px;
   padding: 20px;
   color: white;
+  margin-bottom: 10px;
 }
 
 .App-intro {
